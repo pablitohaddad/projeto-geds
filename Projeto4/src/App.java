@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         // Criar um Objeto Pessoa
         Pessoa pessoa = new Pessoa("Pablo", 19, "03955922234", 'M');
-        
+            
         pessoa.exibirInformacoes();
 
         if(pessoa.isMaiorDeIdade()){
